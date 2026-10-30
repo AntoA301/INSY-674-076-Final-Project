@@ -1,0 +1,16 @@
+# INSY 674 – Halloween and Crime in Montréal
+# Python 3.13 (same as Google Colab). Install with: pip install -r requirements.txt
+# These pinned versions were installed together in a clean environment and the full
+# notebook ran end-to-end with them (FAST = True).
+
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+statsmodels==0.14.5
+matplotlib==3.10.7
+pymc==5.26.1          # Bayesian Negative Binomial model (installs pytensor)
+arviz==0.22.0         # convergence checks (r_hat, ESS)
+holidays==0.84        # Québec statutory holidays
+openpyxl==3.1.5       # needed by pandas to read actes-criminels.xlsx
+ipykernel==6.31.0     # runs the notebook in Jupyter / VS Code
